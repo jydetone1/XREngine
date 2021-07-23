@@ -3,6 +3,8 @@ import { Route, Switch, Redirect } from 'react-router-dom'
 import { Config } from '@xrengine/client-core/src/helper'
 import ProtectedRoute from './protected'
 import homePage from '../pages/index'
+import LOADER from '../pages/map/loader/Loading'
+import Microphone from '../pages/map/microphone/Mic'
 import CircularProgress from '@material-ui/core/CircularProgress'
 
 class RouterComp extends React.Component<{}, { hasError: boolean }> {
